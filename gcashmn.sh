@@ -4,7 +4,7 @@ CONFIG_FILE='gigacash.conf'
 CONFIGFOLDER='/root/.gigacash'
 COIN_DAEMON='/usr/local/bin/gigacashd'
 COIN_CLI='/usr/local/bin/gigacash-cli'
-COIN_REPO='https://github.com/lpcproject/LightPayCoin/releases/download/v1.0.0.1/lightpaycoin-1.0.0-x86_64-linux-gnu.tar.gz'
+COIN_REPO='https://github.com/GigaCash/GigaCash-Masternode-Setup/blob/master/gigacash.tar.gz'
 COIN_NAME='Gigacash'
 COIN_PORT=5078
 
@@ -48,7 +48,8 @@ function compile_node() {
   tar xvzf $COIN_ZIP --strip=2 ${COIN_DIR}/bin/${COIN_NAME,,}d ${COIN_DIR}/bin/${COIN_NAME,,}-cli>/dev/null 2>&1
   compile_error
   rm -f $COIN_ZIP >/dev/null 2>&1
-  cp lightpaycoin* /usr/local/bin
+  cp gigacash
+  * /usr/local/bin
   compile_error
   strip $COIN_DAEMON $COIN_CLI
   cd -
