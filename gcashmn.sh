@@ -4,7 +4,7 @@ CONFIG_FILE='gigacash.conf'
 CONFIGFOLDER='/root/.gigacash'
 COIN_DAEMON='/usr/local/bin/gigacashd'
 COIN_CLI='/usr/local/bin/gigacash-cli'
-COIN_REPO='https://github.com/GigaCash/GigaCash-Masternode-Setup/blob/master/gigacash.tar.gz'
+COIN_REPO='https://raw.githubusercontent.com/GigaCash/GigaCash-Masternode-Setup/master/gigacash.tar.gz'
 COIN_NAME='Gigacash'
 COIN_PORT=5078
 
