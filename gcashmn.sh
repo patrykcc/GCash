@@ -1,11 +1,5 @@
 #!/bin/bash
 
-apt-get update
-apt-get install wget -y
-apt-get install lsb-release -y
-apt-get install curl -y
-apt-get upgrade -y
-
 CONFIG_FILE='gigacash.conf'
 CONFIGFOLDER='/root/.gigacash'
 COIN_DAEMON='/usr/local/bin/gigacashd'
